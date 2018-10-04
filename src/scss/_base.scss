@@ -1,0 +1,218 @@
+html{
+      font-size: $htmlfs;
+      overflow-y: scroll;
+}
+body {
+    font-family: $fontOpenSans;
+    font-size: $fsBody;
+    background-color: #fff;
+    color: $textColor;
+    overflow-x: hidden;
+}
+.no-scroll {
+    overflow: hidden;
+    // position: fixed;
+    // height: 100%;
+    // width: 100%;
+    #openNavOverlay {
+        display: block;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+        color: $primaryColor;
+    }
+}
+.largetitle{
+  font-size: $fsH1;
+}
+h1 {
+    font-family: $fontAnton;
+    font-size: $fsH1;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+h2,
+h3 {
+    font-family: $fontAnton;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: $primaryColor;
+}
+h2 {
+    font-size: $fsH2;
+}
+h3 {
+    font-size: $fsH3;
+}
+p{
+  font-size: $fsBody;
+  font-family: $fontOpenSans;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.title {
+    font-family: $fontAnton;
+    font-size: $fsTitle;
+    color: $primaryColor;
+}
+.txt-primary {
+    color: $primaryColor;
+}
+.txt-secondary {
+    color: $secondaryColor;
+}
+.bg-light {
+    background-color: $lightGray;
+}
+#openNavOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9998;
+    display: none;
+    background-color: rgba(black,0.5);
+    overflow: hidden;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 0;
+    padding-left: 25px;
+}
+li{
+  margin-bottom: 2rem;
+}
+/*.row{
+  padding: 60px 0px;
+}*/
+
+.semibold{
+  font-weight: 500;
+}
+.normalfont{
+  font-weight: normal;
+}
+.bold{
+  font-weight: bold;
+}
+.whiteText{
+  color: white!important;
+}
+.blackText{
+  color: black!important;
+}
+.primaryColor{
+  color: $primaryColor;
+}
+.text-align-center{
+  text-align: center;
+}
+.largefont p{
+    font-size: $fsH2;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+.button{
+  background-color: $secondaryColor;
+  color: white;
+  border: 0px;
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 2.2rem;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: $fontAnton;
+}
+.button:hover{
+  background-color: $primaryColor;
+  color: white;
+}
+
+.button.white{
+  display: inline-block;
+  text-align: center;
+  background-color: #00ffff00;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 2.2rem;
+  &:hover{
+      background-color: #78b6db;
+  }
+}
+
+
+
+.button.large {
+    background-color: #61082b;
+    color: white;
+    border: 0px;
+    padding: 30px 80px;
+    line-height: 1;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    font-family: $fontAnton;
+}
+.button.large:hover{
+  background-color: $primaryColor;
+  color: white;
+}
+
+
+.button.invert{
+  background-color: $secondaryColor;
+  color: white;
+  border: 0px;
+  padding: 15px 20px;
+  line-height: 1;
+  font-size: 2.7rem;
+  cursor: pointer;
+  font-family: $fontAnton;
+}
+.button.invert:hover{
+  background-color: white;
+  color: $secondaryColor;
+}
+
+.maxwidthauto{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.LHone{
+  line-height: 1;
+}
+.LHonehalf{
+  line-height: 1.5;
+}
+.LHtwo{
+  line-height: 2;
+}
+.LHtwohalf{
+  line-height: 2.5;
+}
+.LHthree{
+  line-height: 3;
+}
+.LHthreehalf{
+  line-height: 3.5;
+}
+.LHfour{
+  line-height: 4;
+}

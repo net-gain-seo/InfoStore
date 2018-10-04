@@ -1,0 +1,196 @@
+body.sticky-header{
+  margin-top: 220px;
+}
+.site-header {
+    box-shadow: 0 3px 20px rgba(black,0.2);
+    z-index: 9999;
+    position: relative;
+}
+main{
+  position: relative;
+  z-index: 9;
+}
+.flex-header {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    .logo {
+        flex: 0;
+        margin-bottom: 1px;
+        img {
+          max-width: 400px;
+          padding: 20px 0px;
+        }
+    }
+    .stickylogo {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+    }
+    .header-block {
+        flex: 1;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        .title {
+            text-align: center;
+            padding: 0 60px 3px 16px; // adjust bottom alignment with the phone number
+        }
+        .phone {
+            a {
+              font-weight: bold;
+              font-size: 2.5rem;
+              font-family: $fontLato;
+              color: $textColor;
+              padding: 15px 0px;
+              float: right;
+            }
+        }
+        .inner-block {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-end;
+            justify-content: flex-end;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .contact-block {
+            // display: flex;
+            // flex-flow: column wrap;
+            text-align: right;
+        }
+        .topbuttons{
+          top: -25px;
+          position: relative;
+          .button{
+            background-color: #E6E7E8;
+            color: $primaryColor;
+            padding: 10px 25px;
+            padding-top: 30px;
+            border-radius: 20px;
+            margin-left: 5px;
+            font-size: 2rem;
+            font-family: $fontOpenSans;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover{
+              color: $secondaryColor;
+            }
+          }
+        }
+    }
+    .header-nav{
+      width: 100%;
+      .container{
+        width: 100%;
+      }
+    }
+
+    .mobile-icons{
+      display: none;
+    }
+}
+.stickylogo img {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.sticky-header {
+    .topbuttons{
+      display: none;
+    }
+    .site-header {
+        position: fixed;
+        z-index: 99989;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 60px;
+        max-height: 60px;
+        background: white;
+        box-shadow: 0 3px 20px rgba(black,0.2);
+        // transition: max-height 0.15s ease-in-out;
+    }
+    .flex-header {
+        .logo {
+            display: none;
+        }
+        .header-block {
+            .inner-block {
+                display: none;
+            }
+        }
+    }
+    .header-nav {
+        height: 60px; // IE needs this
+    }
+    .get-quote{
+        padding: 0px 25px;
+    }
+    .stickylogo {
+        display: block;
+        position: static;
+        left: auto;
+        opacity: 1;
+        img{
+          width: 150px;
+          position: absolute;
+          top: 15px;
+          height: auto;
+          overflow: visible;
+        }
+    }
+    .main-nav>ul>li {
+        line-height: 60px;
+    }
+    .get-quote {
+        line-height: 60px;
+    }
+}
+.slider-content{
+  h1 {
+      font-size: 4rem;
+   }
+   p{
+     font-size: 2rem;
+   }
+}
+.mast {
+    position: relative;
+    overflow: hidden;
+    .mast-overlay {
+      position: absolute;
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      color: #fff;
+      top: 50%;
+      right: -15%;
+      left: -15%;
+      font-family: $fontAnton;
+    }
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+    h2,
+    p {
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.product-mast {
+    .mast-overlay {
+        top: auto;
+        bottom: 15%;
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,401 @@
+.servicesection{
+  .row{
+    padding: 20px 0px;
+    justify-content: center;
+    .col{
+      color: white;
+      text-align: center;
+      padding: 0 20px;
+      img{
+        margin-bottom: 20px;
+        width: 45px;
+      }
+      p{
+        font-weight: normal;
+        line-height: 2;
+      }
+      h3{
+        margin-bottom: 0.5rem;
+        color: white;
+      }
+    }
+    .borderLR{
+      border-left: 2px solid white;
+      border-right: 2px solid white;
+    }
+  }
+}
+.mapsection{
+  width: 100%;
+  padding: 0px!important;
+  margin-bottom: -2px;
+}
+.intelligentsolutions{
+  .col{
+    margin-bottom: 8rem;
+    h2{
+      font-size: 2.7rem;
+      margin-bottom: 1rem;
+    }
+    p{
+      color: $textColor;
+    }
+    .icon{
+      display: inline-block;
+      float: left;
+      height: 150%;
+      margin-right: 10px;
+    }
+    &:hover{
+      *{
+        color: $secondaryColor;
+      }
+    }
+  }
+}
+.intelligentsolutions.mainpage{
+  .col{
+    .icon {
+        margin-right: 20px;
+    }
+    a{
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-top: 4rem;
+      float: left;
+    }
+  }
+}
+
+.idustriesservices{
+  padding-bottom: 0px;
+  .col{
+    text-align: center;
+    margin-bottom: 4rem;
+    .icon{
+      margin-bottom: 25px;
+      img{
+        box-shadow: 0 8px 6px -6px #585858;
+      }
+    }
+    h3{
+      margin-bottom: 0rem;
+    }
+    p{
+      line-height: 1.5;
+      color: $textColor;
+    }
+    &*{
+          text-align: center;
+    }
+  }
+}
+.mainidustriesservices{
+  .row{
+    padding: 0px 20px;
+
+    .col{
+      align-self: center;
+      h3{
+        margin-bottom: 1rem;
+      }
+      a{
+        margin-top: 1rem;
+        font-size: 2.2rem;
+        font-weight: bold;
+        float: left;
+      }
+    }
+  }
+}
+.introtext{
+  p{
+    line-height: 2;
+  }
+}
+.bluebackground{
+  background-color: $primaryColor;
+}
+.membershipsection{
+  .col{
+    align-self: center;
+    p{
+      text-align: center;
+    }
+  }
+}
+.compliancesection{
+  a{
+    font-weight: bold;
+  }
+  .box{
+    max-width: 300px;
+    border: 1px solid grey;
+    padding: 0px 20px;
+    margin-right: 20px;
+  }
+}
+
+.solutionsection{
+  .onebox {
+      flex: 0 0 70%!important;
+      background-color: white!important;
+  }
+  .col{
+    background-color: #E6E7E8;
+    margin: 0px;
+    flex: 0 0 32.5%;
+    padding: 0px;
+    .redbanner{
+      background-color: $secondaryColor;
+      color: white;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      h4{
+        color: white;
+      }
+    }
+    .info{
+      padding: 30px 20px;
+      ul{
+        list-style: none;
+        padding-left: 0px;
+        li{
+          margin-bottom: 0.5rem;
+          a{
+            color: $textColor;
+            &:hover{
+              color: #78b6db;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.scannerequipmentsection{
+  .col{
+    margin: 0px;
+    flex: 0 0 31%;
+    padding: 0px;
+    box-shadow: 5px 5px 11px 3px #a3a3a3;
+    margin-bottom: 4rem;
+    .image{
+      margin: auto;
+      text-align: center;
+      img{
+        max-width: 300px;
+        padding: 20px;
+      }
+      h4{
+        font-size: 2.5rem;
+        text-align: center;
+        color: $primaryColor;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+    }
+    .redbanner{
+      background-color: $secondaryColor;
+      color: white;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      display: block;
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+  }
+}
+.greybanner{
+  background-color: $lightGray;
+  h4{
+    font-size: 2.5rem;
+    color: $primaryColor;
+    font-weight: bold;
+    padding: 10px 5px;
+  }
+}
+.aligncontentcenter{
+  align-self: center;
+}
+.cartonsizesection{
+  table {
+      border-collapse: collapse;
+      border: 1px solid #666;
+      width: 100%;
+      text-align: left;
+  }
+  tbody tr:nth-child(even) {
+      background-color: $lightGray;
+  }
+  tr{
+    td{
+      padding: 10px 20px;
+    }
+  }
+}
+.producttable{
+  table {
+      width: 100%;
+      tr{
+        height: 50px;
+        td{
+          width: 50%;
+          text-align: left;
+        }
+      }
+  }
+}
+.cloudcompanysection{
+  .info{
+      min-height: 280px;
+      img{
+        margin-bottom: 40px;
+      }
+  }
+  .info.ecm{
+    img{
+      width: 450px;
+      margin-top: -60px;
+    }
+  }
+  .redbanner{
+    background-color: $secondaryColor;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+// The rest of the team grid
+.f-team-rest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4rem 0;
+    h1 {
+        flex-basis: 100%;
+        padding: 30px 0px;
+    }
+    h2,
+    h3 {
+        color: white;
+    }
+    h2 {
+        margin-bottom: 0.25rem;
+    }
+    h3 {
+    font-family: $fontLato;
+    }
+    .f-col {
+        // flex: 1 0 48%;
+        margin-bottom: 5%;
+        background: #fff;
+        p {
+            margin: 0;
+        }
+    }
+    .name-title {
+        padding: 2rem 1.5rem 1rem 1.5rem;
+        background-color: $primaryColor;
+        color: white;
+    }
+}
+
+.fadedbackground{
+  background: #61082b;
+  background: -webkit-gradient(linear, left top, right top, from(#61082b), to(#01395e));
+  background: linear-gradient(90deg, #61082b 0%, #01395e 100%);
+}
+/***********************************
+** Left/right aligned containers
+************************************/
+.container-fluid {
+    &.container-r,
+    &.container-l {
+        padding: 0; // get rid of the padding of the fluid container
+    }
+}
+// Defaults
+.container-r,
+.container-l {
+    .flexed {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    .f-col {
+        flex: 1; // for now
+        flex: 0 0 50%;
+    }
+}
+.container-r {
+    background: $secondaryColor;
+    background: -webkit-gradient(linear, left top, left bottom, from($secondaryColor), to($primaryColor));
+    background: linear-gradient(90deg, $secondaryColor 0%, $primaryColor 100%);
+    .f-info {
+        padding: 8rem 2rem 2rem 36rem;
+        color: white;
+        h3{
+          margin-bottom: 4rem;
+          font-size: 3rem;
+          color: white;
+        }
+        h2{
+          font-size: 2.5rem;
+          margin-bottom: 5rem;
+          color: white;
+        }
+        p {
+            margin-bottom: 2rem;
+            line-height: 2;
+        }
+        a{
+          margin-top: 10rem;
+          color: white;
+          &:hover{
+            text-decoration: underline!important;
+            cursor: pointer;
+          }
+        }
+    }
+    .f-pics {
+        p { // stupid wordpress paragraphs
+            margin: 0;
+        }
+    }
+}
+.f-home {
+    .f-pics {
+        flex: 2;
+        order: 2;
+        background: url('img/secondhalf.jpg') center center no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.testimonials-listing{
+  padding: 40px 0px;
+  h3, .the-testimonial{
+    margin-bottom: 1rem;
+  }
+}
+
+.testimonials-listing:nth-child(even){
+background-color: white;
+}
+.testimonials-listing:nth-child(odd){
+background-color: $lightGray;
+}
+.page-id-168{
+  .slider-content p, .slider-content h1, .slider-content h3{
+    text-align: center;
+  }
+}
