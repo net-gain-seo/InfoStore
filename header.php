@@ -16,7 +16,7 @@
         <div class="stickylogo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-sticky.png" alt=""></a></div>
         <div class="header-block">
           <div class="topbuttons">
-            <a href="https://secure.infostorerecords.com/dhsrmweb" class="button" target="_blank">Place Order</a><a href="http://www.infostorerecords.com/termsync-register.html" class="button" target="_blank">Make Payment</a><a href="https://secure.infostorerecords.com/dhsrmweb" class="button" target="_blank">Client Login</a>
+            <a href="https://secure.infostorerecords.com/dhsrmweb" class="button" target="_blank">Place Order</a><a href="http://www.infostorerecords.com/termsync-register.html" class="button" target="_blank">Make Payment</a><a href="https://login.imagesilo.com/Home/Login" class="button" target="_blank">Client Login</a>
           </div>
             <div class="inner-block">
                 <div class="phone"><a href="tel:12167494636">Call: (216) 749-INFO (4636)</a></div>

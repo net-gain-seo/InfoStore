@@ -1,32 +1,22 @@
 .main-nav {
-    ul {
+
+    #menu-main-menu {
         list-style: none;
         margin: 0;
         padding: 0;
-    }
-    a {
-        display: block;
-        // transition: all 0.2s ease-in-out;
-    }
-    > ul {
         margin-right: 0.5rem;
         float: right;
         // Top level
-        > li {
+        li {
             display: inline-block;
             position: relative;
             line-height: 32px;
             margin-bottom: 0px;
             margin-left: 15px;
             transition: box-shadow 0.2s ease-in-out;
-<<<<<<< HEAD
             a {
                 display: block;
                 padding: 1.5rem 1rem;
-=======
-            > a {
-                padding: 0 0rem;
->>>>>>> parent of 55f62d2... Normilize Navigation Layout
                 color: $primaryColor;
                 &:hover {
                     color: $secondaryColor;

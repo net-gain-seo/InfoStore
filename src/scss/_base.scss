@@ -150,9 +150,6 @@ li{
   border-radius: 50px;
   padding: 15px 30px;
   font-size: 2.2rem;
-  &:hover{
-      background-color: #78b6db;
-  }
 }
 
 
@@ -190,6 +187,15 @@ li{
   color: $secondaryColor;
 }
 
+table {
+    border-collapse: collapse;
+    border: 1px solid #666;
+    width: 100%;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
 .maxwidthauto{
   max-width: 1140px;
   margin: auto;

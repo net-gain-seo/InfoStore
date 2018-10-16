@@ -37,19 +37,11 @@
       font-size: 2.7rem;
       margin-bottom: 1rem;
     }
-    p{
-      color: $textColor;
-    }
     .icon{
       display: inline-block;
       float: left;
       height: 150%;
       margin-right: 10px;
-    }
-    &:hover{
-      *{
-        color: $secondaryColor;
-      }
     }
   }
 }
@@ -77,13 +69,9 @@
       img{
         box-shadow: 0 8px 6px -6px #585858;
       }
-    }
-    h3{
-      margin-bottom: 0rem;
-    }
-    p{
-      line-height: 1.5;
-      color: $textColor;
+      p{
+        line-height: 2;
+      }
     }
     &*{
           text-align: center;
@@ -135,141 +123,33 @@
     margin-right: 20px;
   }
 }
-
-.solutionsection{
-  .onebox {
-      flex: 0 0 70%!important;
-      background-color: white!important;
+.pdfsection{
+  p{
+    float: left;
+    img{
+      margin-right: 10px;
+    }
   }
+}
+.solutionsection{
   .col{
-    background-color: #E6E7E8;
-    margin: 0px;
-    flex: 0 0 32.5%;
+    flex: 0 0 32%;
+    max-width: 32%;
+    background-color: #e6e7e8;
     padding: 0px;
     .redbanner{
       background-color: $secondaryColor;
       color: white;
-      width: 100%;
       padding: 20px;
       text-align: center;
-      h4{
-        color: white;
-      }
     }
     .info{
-      padding: 30px 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       ul{
         list-style: none;
-        padding-left: 0px;
-        li{
-          margin-bottom: 0.5rem;
-          a{
-            color: $textColor;
-            &:hover{
-              color: #78b6db;
-            }
-          }
-        }
       }
     }
-  }
-}
-.scannerequipmentsection{
-  .col{
-    margin: 0px;
-    flex: 0 0 31%;
-    padding: 0px;
-    box-shadow: 5px 5px 11px 3px #a3a3a3;
-    margin-bottom: 4rem;
-    .image{
-      margin: auto;
-      text-align: center;
-      img{
-        max-width: 300px;
-        padding: 20px;
-      }
-      h4{
-        font-size: 2.5rem;
-        text-align: center;
-        color: $primaryColor;
-        font-weight: bold;
-        margin-bottom: 1.5rem;
-      }
-    }
-    .redbanner{
-      background-color: $secondaryColor;
-      color: white;
-      width: 100%;
-      padding: 20px;
-      text-align: center;
-      display: block;
-      font-size: 2.2rem;
-      font-weight: bold;
-    }
-  }
-}
-.greybanner{
-  background-color: $lightGray;
-  h4{
-    font-size: 2.5rem;
-    color: $primaryColor;
-    font-weight: bold;
-    padding: 10px 5px;
-  }
-}
-.aligncontentcenter{
-  align-self: center;
-}
-.cartonsizesection{
-  table {
-      border-collapse: collapse;
-      border: 1px solid #666;
-      width: 100%;
-      text-align: left;
-  }
-  tbody tr:nth-child(even) {
-      background-color: $lightGray;
-  }
-  tr{
-    td{
-      padding: 10px 20px;
-    }
-  }
-}
-.producttable{
-  table {
-      width: 100%;
-      tr{
-        height: 50px;
-        td{
-          width: 50%;
-          text-align: left;
-        }
-      }
-  }
-}
-.cloudcompanysection{
-  .info{
-      min-height: 280px;
-      img{
-        margin-bottom: 40px;
-      }
-  }
-  .info.ecm{
-    img{
-      width: 450px;
-      margin-top: -60px;
-    }
-  }
-  .redbanner{
-    background-color: $secondaryColor;
-    color: white;
-    width: 100%;
-    padding: 20px;
-    text-align: left;
-    display: block;
-    font-size: 2.5rem;
-    font-weight: bold;
   }
 }
 // The rest of the team grid
@@ -359,10 +239,6 @@
         a{
           margin-top: 10rem;
           color: white;
-          &:hover{
-            text-decoration: underline!important;
-            cursor: pointer;
-          }
         }
     }
     .f-pics {

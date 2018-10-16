@@ -19,6 +19,19 @@
   }
 }
 @media only screen and (max-width: $screen-lg-min) {
+  .solutionsection{
+    .justify-content-between{
+      justify-content: center!important;
+    }
+    .col{
+      flex: 0 0 47%;
+      max-width: 47%;
+      background-color: #e6e7e8;
+      padding: 0px;
+      margin-bottom: 25px;
+      margin-right: 20px;
+    }
+  }
   .flex-header {
       width: 100%;
       .logo,
@@ -79,30 +92,29 @@
       padding: 4rem 1rem 4rem 4rem;
       min-width: 50%;
   }
-  .scannerequipmentsection{
-    .col{
-      margin: 0px;
-      flex: 0 0 47%;
-      max-width: 50%;
-      padding: 0px;
-      box-shadow: 5px 5px 11px 3px #a3a3a3;
-      margin-bottom: 4rem;
+  .product-line a {
+      margin: 1rem 1rem;
+  }
+  .product-line .slick-list {
+      width: 75%;
+      margin: auto;
+  }
+  .product-line-wrap .slick-product-next {
+      right: 0px!important;
+  }
+  .product-line-wrap .slick-product-prev {
+      left: 0px!important;
+  }
+  .p-products{
+    .pcard-title {
+        font-size: 2.7rem;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        color: #2a3249;
     }
   }
 }
 @media only screen and (max-width: $screen-md-min) {
-  .solutionsection{
-    .justify-content-between{
-      justify-content: center!important;
-      .col{
-        background-color: #E6E7E8;
-        margin: 0px;
-        flex: 0 0 47%;
-        padding: 0px;
-        margin: 10px;
-      }
-    }
-  }
   .sticky-header .flex-header .mobile-icons a {
       margin-top: 1px;
   }
@@ -127,6 +139,24 @@
               padding-top: 10px;
           }
       }
+  }
+  .p-products{
+    .pcard {
+      max-width: 100%;
+    }
+  }
+  .product-line .slick-list {
+      width: 475px;
+      margin: auto;
+  }
+  .f-home .f-pics {
+      order: 0;
+      width: 100%;
+      min-width: 100%;
+      clear: both;
+      float: left;
+      display: block;
+      padding-bottom: 50%;
   }
   .container-r .f-info {
       padding: 4rem 10rem 4rem 4rem;
@@ -319,57 +349,20 @@
   .mainidustriesservices .row {
       padding: 25px 20px;
   }
-  .scannerequipmentsection{
-    .col{
-      margin: 0px;
-      flex: 0 0 100%;
-      padding: 0px;
-      box-shadow: 5px 5px 11px 3px #a3a3a3;
-      margin-bottom: 4rem;
-      max-width: 100%;
-    }
-  }
-  .membershipsection .col {
-      -ms-flex-item-align: center;
-      align-self: center;
-      margin-bottom: 20px;
-  }
-  .compliancesection .box {
-      max-width: 300px;
-      border: 1px solid grey;
-      padding: 0px 20px;
-      margin-right: 20px;
-      margin-left: 20px;
-      margin-bottom: 20px;
-  }
-  img.marginB10{
-    margin-bottom: 1rem!important;
-  }
-  .mobilemarginT{
-    margin-top: 2rem!important;
-  }
 }
 
 @media only screen and (max-width: $screen-sm-max) {
-  .cloudcompanysection{
-    .col{
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-bottom: 4rem;
-    }
-  }
   .solutionsection{
     .justify-content-between{
       justify-content: center!important;
-      .col{
-        background-color: #E6E7E8;
-        margin: 0px;
-        flex: 0 0 100%;
-        padding: 0px;
-        margin: 0px;
-        max-width: 100%;
-        margin-bottom: 2rem;
-      }
+    }
+    .col{
+      flex: 0 0 100%;
+      max-width: 100%;
+      background-color: #e6e7e8;
+      padding: 0px;
+      margin-bottom: 25px;
+      margin-right: 0px;
     }
   }
   .intelligentsolutions .col {
@@ -486,7 +479,7 @@
         width: 100%;
         padding: 0px;
     }
-  .nav-contact{
+  .nav-phone, .nav-contact{
     display: none;
   }
   .p-products{
@@ -550,7 +543,7 @@
       height: auto;
       min-height: 300px;
   }
-   .nav-contact{
+  .nav-phone, .nav-contact{
     display: none!important;
   }
 }

@@ -63,10 +63,6 @@
           border-radius: 50px;
           padding: 15px 30px;
           font-size: 2.2rem;
-          &:hover{
-            color: $secondaryColor;
-            border: 1px solid $secondaryColor;
-          }
         }
     }
     ul {
@@ -281,7 +277,7 @@ div.carousel-list div div img{
         }
     }
     .slider-wrap {
-          background-color: #01395e;
+          background-color: #102c3f;
 
           h5 {
               color: white;
